@@ -1,57 +1,41 @@
-# React + Vite
+# MovixHD - free tv shows streaming website with zero ads :
+Movix is a web application built using React and Redux that allows users to search for movies and TV shows, view popular, trending, and upcoming releases on a daily and weekly basis, and explore detailed information about each title, including trailers and related videos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💻 Built with
+Technologies used in the project:
 
-Currently, two official plugins are available:
+React - Building user interfaces
+Redux - UI state management
+scss - For styling
+Axios - API requests to the TMDB API
+React Router - Navigation and routing within the application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Acknowledgments
 
-- create react application (using VITE) :
-# npm create vite@latest
+In the development of Movix, we express our gratitude to the following third-party libraries and APIs that have significantly contributed to the application's functionality and user experience:
 
-- Add dependencies (package.json) for Project :
-# "dependencies": {
-    "@reduxjs/toolkit": "^1.9.1",
-    "axios": "^1.2.2",
-    "dayjs": "^1.11.7",
-    "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-infinite-scroll-component": "^6.1.0",
-    "react-lazy-load-image-component": "^1.5.6",
-    "react-player": "^2.11.0",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.6.2",
-    "react-select": "^5.7.0",
-    "sass": "^1.57.1"
-  }
+Redux Toolkit (@reduxjs/toolkit): A comprehensive toolset for managing application state with Redux, streamlining state management and reducing boilerplate code.
 
-- Added Required Images and Project Logo :
-- For Data - (Using TMDb API ) : 
-# setting it up: 
-  - .env --> (through) API Read Access Token -- (instead of) API Key
-  - utils folder --> api.js
+Axios (axios): A reliable and efficient HTTP client that seamlessly integrates with the TMDB API, enabling smooth data retrieval.
 
-# Redux Toolkit Setup :
- - install this 2 packages :
-    "@reduxjs/toolkit": "^1.9.1",
-    "react-redux": "^8.0.5",
-- https://redux-toolkit.js.org/tutorials/quick-start
+Day.js (dayjs): A lightweight and versatile library for date and time manipulation, enhancing the application's date formatting capabilities.
 
-- Creating Components and Pages
-- Import export using index.js to App.js 
+React (react) and React DOM (react-dom): The core libraries powering the dynamic user interface and rendering of React components.
 
+React Circular Progressbar (react-circular-progressbar): An eye-catching component that brings visually appealing circular progress bars to the application.
 
-# React Router Setup : 
+React Icons (react-icons): A treasure trove of icons that adds visual charm and enhances the user interface with diverse iconography.
 
+React Infinite Scroll Component (react-infinite-scroll-component): Empowers infinite scrolling functionality, making content loading seamless and intuitive.
 
-# Officail youtube url poster fetch :
+React Lazy Load Image Component (react-lazy-load-image-component): Enhances performance by deferring image loading until needed, improving page loading times.
 
-  // console.log(data.results);
-    // Officail youtube url poster fetch :
-    // https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
+React Player (react-player): Facilitates smooth integration of media players to showcase movie trailers and videos within the application.
 
-# infinte Scrolling :
-https://github.com/ankeetmaini/react-infinite-scroll-component#readme
+React Redux (react-redux): Seamlessly integrates Redux state management with React, providing predictable application state handling.
+
+React Router DOM (react-router-dom): Enables smooth and intuitive navigation and routing within the application.
+
+React Select (react-select): Provides customizable select dropdowns for better user interaction and search functionalities.
+
+Sass (sass): A powerful CSS preprocessor that streamlines and organizes styling, contributing to the overall visual aesthetics of the application.
