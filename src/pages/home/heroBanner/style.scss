@@ -113,6 +113,12 @@
                     font-size: 18px;
                 }
             }
+
+            button:hover{
+                // background: var(--pink);
+                color:var(--black-light);
+
+            }
         }
     }
 }
