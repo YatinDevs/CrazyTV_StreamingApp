@@ -3,6 +3,10 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
+import {GoHomeFill} from "react-icons/go";
+import {RxAvatar} from "react-icons/rx";
+import {BiCameraMovie} from "react-icons/bi";
+import {PiTelevisionSimple} from "react-icons/pi";
 
 import "./style.scss";
 
@@ -79,15 +83,48 @@ const Header = () => {
                 <div className="logo" onClick={()=>navigate(`/`)}>
                     <img src={logo} alt="logo" />
                 </div>
-                <ul className="menuItems">
-                    <li className="menuItem" 
+              {
+                mobileMenu?(
+                    <ul className="menuItems">
+                    <li className="menuItemmob">
+                         My Space
+                    </li>
+                    <li className="menuItemmob" onClick={()=>navigate(`/`)}>
+                        Home
+                    </li>
+                    <li className="menuItemmob" 
                      onClick={()=>navigationHandler("movie")}
-                     >Movies</li>
-                    <li className="menuItem"
+                     >Movie</li>
+                    <li className="menuItemmob"
                     onClick={()=>navigationHandler("tv")}
-                    >Tv Shows</li>
+                    >
+                    TV Shows
+                    </li>
                     <li className="menuItem"><HiOutlineSearch onClick={openSearch}/></li>
-                </ul>
+                  </ul>
+                ):(
+                  <ul className="menuItems">
+                   <li className="menuItemdesk">
+                       <RxAvatar/> 
+                   </li>
+                   <li className="menuItemdesk" onClick={()=>navigate(`/`)}>
+                       <GoHomeFill/>
+                   </li>
+                   <li className="menuItemdesk" 
+                    onClick={()=>navigationHandler("movie")}
+                    ><BiCameraMovie/></li>
+                   <li className="menuItemdesk"
+                   onClick={()=>navigationHandler("tv")}
+                   >
+                   <PiTelevisionSimple/>
+                   </li>
+                   <li className="menuItemdesk"><HiOutlineSearch onClick={openSearch}/></li>
+               </ul>
+                )
+
+              }
+                
+
                 <div className="mobileMenuItems">
                     <HiOutlineSearch onClick={openSearch}/>
                     {mobileMenu ?(
