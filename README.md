@@ -1,7 +1,9 @@
 # CrazyTV Streaming - free tv shows streaming website with zero ads :
+
 CrazyTV Streaming is a web application built using React and Redux that allows users to search for movies and TV shows, view popular, trending, and upcoming releases on a daily and weekly basis, and explore detailed information about each title, including trailers and related videos.
 
 # 💻 Built with
+
 Technologies used in the project:
 
 - React - Building user interfaces
@@ -12,7 +14,7 @@ Technologies used in the project:
 
 # Acknowledgments
 
-In the development of Movix, we express our gratitude to the following third-party libraries and APIs that have significantly contributed to the application's functionality and user experience:
+In the development of CrazyTV, we express our gratitude to the following third-party libraries and APIs that have significantly contributed to the application's functionality and user experience:
 
 - Redux Toolkit (@reduxjs/toolkit): A comprehensive toolset for managing application state with Redux, streamlining state management and reducing boilerplate code.
 
