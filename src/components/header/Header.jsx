@@ -11,7 +11,7 @@ import { PiTelevisionSimple } from "react-icons/pi";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/Yatin_LOgo.svg";
+import logo from "../../assets/logo_tv.png";
 
 const Header = () => {
   const [show, setShow] = useState("top");
