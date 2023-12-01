@@ -30,7 +30,7 @@
   .logo {
     cursor: pointer;
     img {
-      height: 50px;
+      height: 80px;
     }
   }
   .menuItems {
@@ -151,6 +151,12 @@
 
   &.mobileView {
     background: var(--black3);
+    .logo {
+      cursor: pointer;
+      img {
+        height: 70px;
+      }
+    }
     .menuItems {
       display: flex;
       position: absolute;
