@@ -1,5 +1,5 @@
-# MovixHD - free tv shows streaming website with zero ads :
-MovixHD is a web application built using React and Redux that allows users to search for movies and TV shows, view popular, trending, and upcoming releases on a daily and weekly basis, and explore detailed information about each title, including trailers and related videos.
+# CrazyTV Streaming - free tv shows streaming website with zero ads :
+CrazyTV Streaming is a web application built using React and Redux that allows users to search for movies and TV shows, view popular, trending, and upcoming releases on a daily and weekly basis, and explore detailed information about each title, including trailers and related videos.
 
 # 💻 Built with
 Technologies used in the project:
